@@ -10,6 +10,8 @@ app.use(express.json())
 
 app.use(require('./routes'))
 
+require('./models')
+
 require('./connection')
     .sync()
     .then(() => app.listen(process.env.PORT || 3000, () => console.log('http://localhost:3000')))
