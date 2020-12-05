@@ -1,13 +1,13 @@
 const { Model, DataTypes } = require('sequelize')
 const sequelize = require('./connection')
 
-class Lists extends Model {}
+class List extends Model {}
 
-Lists.init({
+List.init({
     name: {
         type: DataTypes.STRING,
         allowNull: false
     }
 }, { sequelize, modelName: 'lists' })
 
-module.exports = Lists
+module.exports = List

@@ -1,8 +1,8 @@
-const Lists = require('./lists')
+const List = require('./lists')
 const Item = require('./item')
 
-Lists.hasMany(Item)
+List.hasMany(Item)
 
 Item.belongsTo(Lists)
 
-module.exports = { Lists, Item }
+module.exports = { List, Item }
