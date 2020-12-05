@@ -8,6 +8,6 @@ List.init({
         type: DataTypes.STRING,
         allowNull: false
     }
-}, { sequelize, modelName: 'lists' })
+}, { sequelize, modelName: 'list' })
 
 module.exports = List
