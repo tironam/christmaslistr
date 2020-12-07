@@ -4,16 +4,10 @@ CREATE DATABASE gift_db;
 
 USE gift_db;
 
-CREATE TABLE lists (
-    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-    name VARCHAR(30) NOT NULL
-);
-
 CREATE TABLE items (
     id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     name VARCHAR(30) NOT NULL,
     price INT NOT NULL,
     description VARCHAR(30),
     link VARCHAR(30),
-    FOREIGN KEY listid REFERENCES lists(id)
 );

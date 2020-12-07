@@ -1,11 +1,9 @@
 const router = require('express').Router()
-const { List, Item } = require('../models')
+const db = require('../db')
 
 // GET items based on list
-router.get('/item/:id', (req, res) => {
-    Item.findOne({ id: req.params.id })
-        .then(item => res.json(item))
-        .catch(err => console.error(err))
+router.get('/lists', (req, res) => {
+    db.query('SELECT * FROM lists')
 })
 
 // ADD an item
