@@ -9,7 +9,4 @@ app.use(express.json())
 
 app.use(require('./routes'))
 
-require('./db')
-    .sync()
-    .then(() => app.listen(3000, () => console.log('http://localhost:3000')))
-    .catch(err => console.error(err))
+app.listen(3000, () => console.log(' Running! http://localhost:3000'))
