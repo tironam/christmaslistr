@@ -1,4 +1,4 @@
-const List = require('./lists')
+const List = require('./list')
 const Item = require('./item')
 
 List.hasMany(Item)
