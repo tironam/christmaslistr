@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { Lists, Item } = require('../models')
+const { List, Item } = require('../models')
 
 // GET items based on list
 router.get('/item/:id', (req, res) => {
