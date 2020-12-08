@@ -19,6 +19,10 @@ document.getElementById('addItem').addEventListener('click', event => {
                 </div>
             `
             document.getElementById('gifts').append(itemElem)
+            document.getElementById('name').value = ''
+            document.getElementById('price').value = ''
+            document.getElementById('description').value = ''
+            document.getElementById('link').value = ''
         })
-        // .catch(err => console.error(err))
+        .catch(err => console.error(err))
 })
