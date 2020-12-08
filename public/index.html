@@ -16,7 +16,9 @@
     <h1>Michael's List</h1>
 
     <h3>Gift List:</h3>
-    <div class="giftList" id="giftList"></div>
+    <div id="giftList">
+        <div id="gifts" class="gifts"></div>
+    </div>
 
         <h5>Add an item to your list!</h5>
     <div class="input-group flex-nowrap">
@@ -48,10 +50,11 @@
             aria-describedby="addon-wrapping">
     </div>
     <button type="button" id="addItem" class="btn btn-success">Add to list</button>
-
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-        <script src="index.js"></script>
 </body>
 </html>
