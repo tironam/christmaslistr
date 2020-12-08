@@ -11,7 +11,7 @@ router.get('/items', (req, res) => {
 
 // ADD an item
 router.post('/items', (req, res) => {
-    db.query('INSERT INTO items SET ?', req.body, err => {
+    db.query('INSERT INTO items SET ?', req.body, (err, items) => {
         if (err) { console.log(err) }
         res.json(items)
     })
