@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(156, 20, 38) !important;
+}
+
+h1, h3, h5 {
+    color: white;
+}
+
+.input-group {
+    padding: 10px;
+}
+
