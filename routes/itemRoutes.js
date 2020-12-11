@@ -18,11 +18,11 @@ router.post('/items', (req, res) => {
 })
 
 // DELETE an item
-router.delete('/items/:id', (req, res) => {
-    db.query(`DELETE FROM items WHERE items.id = ?`, req.body, (err, items) => {
-        if (err) { console.log(err) }
-        res.json(items)
-    })
-})
+// router.delete('/items/:id', (req, res) => {
+//     db.query(`DELETE FROM items WHERE items.id = ?`, [req.body.id], (err, items) => {
+//         if (err) { console.log(err) }
+//         res.json(items)
+//     })
+// })
 
 module.exports = router
