@@ -4,7 +4,7 @@ const getList = () => {
             data.forEach(item => {
                 let itemElem = document.createElement('div')
                 itemElem.innerHTML = `
-                <div class="card" style="width: 18rem;">
+                <div class="card giftCard bg-success" style="width: 18rem;">
                     <div class="card-header">${item.name}</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">$${item.price}</li>
@@ -33,7 +33,7 @@ document.getElementById('addItem').addEventListener('click', event => {
         .then(() => {
             let itemElem = document.createElement('div')
             itemElem.innerHTML = `
-                <div class="card" style="width: 18rem;">
+                <div class="card giftCard bg-success" style="width: 18rem;">
                     <div class="card-header">${document.getElementById('name').value}</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">$${document.getElementById('price').value}</li>
