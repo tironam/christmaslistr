@@ -11,6 +11,7 @@ const getList = () => {
                         <li class="list-group-item">Description: ${item.description}</li>
                         <li class="list-group-item"><a href="${item.link}" target="_blank">Buy Here</a></li>
                     </ul>
+                    <button type="button" class="btn btn-secondary">Delete</button>
                 </div>
                 `
                 document.getElementById('gifts').append(itemElem)
@@ -40,6 +41,7 @@ document.getElementById('addItem').addEventListener('click', event => {
                         <li class="list-group-item">Description: ${document.getElementById('description').value}</li>
                         <li class="list-group-item"><a href="${document.getElementById('price').value}" target="_blank">Buy Here</a></li>
                     </ul>
+                    <button type="button" class="btn btn-secondary">Delete</button>
                 </div>
             `
             document.getElementById('gifts').append(itemElem)
