@@ -4,12 +4,23 @@ body {
 
 h1, h3, h5 {
     color: white;
+    text-align: center;
 }
 
 .input-group {
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
 }
 
 .gifts {
     padding: 20px;
+}
+
+.giftList {
+    display: block;
+    align-items: center;
+}
+
+.text-center {
+    padding: 10px 0px 20px 0px;;
 }

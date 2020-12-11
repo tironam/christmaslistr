@@ -16,7 +16,7 @@
     <h1>Michael's List</h1>
 
     <h3>Gift List:</h3>
-    <div id="giftList">
+    <div id="giftList" class="giftList">
         <div id="gifts" class="gifts"></div>
     </div>
 
@@ -49,7 +49,10 @@
         <input type="text" id="link" class="form-control" placeholder="Where can they buy it?" aria-label="name"
             aria-describedby="addon-wrapping">
     </div>
-    <button type="button" id="addItem" class="btn btn-success">Add to list</button>
+    <div class="text-center">
+        <button type="button" id="addItem" class="btn btn-success subBtn ">Add to list</button>
+    </div>
+    
     
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
