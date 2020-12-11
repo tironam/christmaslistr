@@ -1,0 +1,29 @@
+{
+  "name": "christmaslistr",
+  "version": "1.0.0",
+  "description": "A simple list app with a holiday twist.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tironam/christmaslistr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tironam/christmaslistr/issues"
+  },
+  "homepage": "https://github.com/tironam/christmaslistr#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {}
+}

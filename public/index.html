@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Listr</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1>Mikie's List</h1>
+
+    <h3>Gift List:</h3>
+    <div id="giftList" class="giftList d-flex justify-content-center">
+        <div id="gifts" class="gifts"></div>
+    </div>
+
+        <h5>Add an item to your list!</h5>
+    <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Name:</span>
+        </div>
+        <input type="text" id="name" class="form-control" placeholder="What's it called?" aria-label="name"
+            aria-describedby="addon-wrapping">
+    </div>
+    <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">$</span>
+        </div>
+        <input type="text" id="price" class="form-control" placeholder="Price" aria-label="name"
+            aria-describedby="addon-wrapping">
+    </div>
+    <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Description:</span>
+        </div>
+        <input type="text" id="description" class="form-control" placeholder="Describe the item" aria-label="name"
+            aria-describedby="addon-wrapping">
+    </div>
+    <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Link</span>
+        </div>
+        <input type="text" id="link" class="form-control" placeholder="Where can they buy it?" aria-label="name"
+            aria-describedby="addon-wrapping">
+    </div>
+    <div class="text-center">
+        <button type="button" id="addItem" class="btn btn-success subBtn ">Add to list</button>
+    </div>
+    
+    <script src="snow.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+</html>
