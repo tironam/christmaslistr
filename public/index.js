@@ -9,7 +9,7 @@ const getList = () => {
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">$${item.price}</li>
                         <li class="list-group-item">Description: ${item.description}</li>
-                        <li class="list-group-item">Where to buy: ${item.link}</li>
+                        <li class="list-group-item"><a href="${item.link}" target="_blank">Buy Here</a></li>
                     </ul>
                 </div>
                 `
@@ -38,7 +38,7 @@ document.getElementById('addItem').addEventListener('click', event => {
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">$${document.getElementById('price').value}</li>
                         <li class="list-group-item">Description: ${document.getElementById('description').value}</li>
-                        <li class="list-group-item">Where to buy: ${document.getElementById('link').value}</li>
+                        <li class="list-group-item"><a href="${document.getElementById('price').value}" target="_blank">Buy Here</a></li>
                     </ul>
                 </div>
             `
