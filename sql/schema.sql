@@ -6,8 +6,8 @@ USE gift_db;
 
 CREATE TABLE items (
     id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-    name VARCHAR(250) NOT NULL,
+    name VARCHAR(30) NOT NULL,
     price INT NOT NULL,
-    description VARCHAR(250),
-    link VARCHAR(250),
+    description VARCHAR(30),
+    link VARCHAR(255),
 );
