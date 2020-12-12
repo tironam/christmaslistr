@@ -1,5 +1,6 @@
 const express = require('express')
 const { join } = require('path')
+require('dotenv').config()
 
 const app = express()
 
