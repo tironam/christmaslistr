@@ -1,6 +1,7 @@
 const getList = () => {
     axios.get('/api/items')
         .then(({ data }) => {
+            data = JSON.parse(data)
             data.forEach(item => {
                 let itemElem = document.createElement('div')
                 itemElem.innerHTML = `
