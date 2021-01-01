@@ -2,8 +2,6 @@ body {
     background-color: rgb(156, 20, 38) !important;
 }
 
-
-
 h1, h3, h5 {
     color: white;
     text-align: center;
@@ -11,7 +9,7 @@ h1, h3, h5 {
 
 h1 {
     font-family: cursive;
-    margin-top: 20px;
+    padding: 25px;
 }
 
 h3, h5 {
@@ -20,17 +18,26 @@ h3, h5 {
 
 .input-group {
     padding: 10px 25px 10px 25px;
-    text-align: center;
+    /* text-align: center; */
+    max-width: 475px;
+    margin: auto;
 }
 
 .giftCard {
     margin: 20px;
+    box-shadow: 5px 5px black;
 }
 
 .text-center {
-    padding: 10px 0px 20px 0px;;
+    padding: 10px 0px 20px 0px;
+    ;
 }
 
 .card-header {
     color: white;
+}
+
+.btn {
+    border: 10px solid black;
+    box-shadow: 4px 4px black;
 }

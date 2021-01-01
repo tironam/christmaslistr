@@ -9,5 +9,5 @@ CREATE TABLE items (
     name VARCHAR(30) NOT NULL,
     price INT NOT NULL,
     description VARCHAR(30),
-    link VARCHAR(255),
+    link VARCHAR(255)
 );
