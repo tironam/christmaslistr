@@ -23,7 +23,7 @@ h3, h5 {
 
 .giftCard {
     margin: 20px;
-    box-shadow: 3px 3px black;
+    box-shadow: 5px 5px black;
 }
 
 .text-center {
@@ -37,5 +37,5 @@ h3, h5 {
 
 .btn {
     border: 10px solid black;
-    box-shadow: 3px 3px black;
+    box-shadow: 4px 4px black;
 }
