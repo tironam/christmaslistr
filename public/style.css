@@ -2,8 +2,6 @@ body {
     background-color: rgb(156, 20, 38) !important;
 }
 
-
-
 h1, h3, h5 {
     color: white;
     text-align: center;
@@ -25,12 +23,19 @@ h3, h5 {
 
 .giftCard {
     margin: 20px;
+    box-shadow: 3px 3px black;
 }
 
 .text-center {
-    padding: 10px 0px 20px 0px;;
+    padding: 10px 0px 20px 0px;
+    ;
 }
 
 .card-header {
     color: white;
+}
+
+.btn {
+    border: 10px solid black;
+    box-shadow: 3px 3px black;
 }
